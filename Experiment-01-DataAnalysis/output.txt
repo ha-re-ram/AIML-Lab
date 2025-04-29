@@ -1,0 +1,54 @@
+Top 5 records:
+    EmployeeID  Age   Department  Salary
+0           1   56  Engineering  137125
+1           2   50      Finance   64023
+2           3   55      Finance  141849
+3           4   59  Engineering  110625
+4           5   31    Marketing   86807
+Bottom 5 records:
+     EmployeeID  Age   Department  Salary
+95          96   53    Marketing  128008
+96          97   29      Finance  122490
+97          98   44           HR  113839
+98          99   49           HR  138987
+99         100   22  Engineering   64058
+
+Dataset Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 100 entries, 0 to 99
+Data columns (total 4 columns):
+ #   Column      Non-Null Count  Dtype 
+---  ------      --------------  ----- 
+ 0   EmployeeID  100 non-null    int64 
+ 1   Age         100 non-null    int64 
+ 2   Department  100 non-null    object
+ 3   Salary      100 non-null    int64 
+dtypes: int64(3), object(1)
+memory usage: 3.3+ KB
+None
+
+Descriptive Statistics:
+       EmployeeID         Age         Salary
+count  100.000000  100.000000     100.000000
+mean    50.500000   40.520000   92444.630000
+std     29.011492   10.818503   32593.006621
+min      1.000000   22.000000   42134.000000
+25%     25.750000   30.750000   64049.250000
+50%     50.500000   40.000000   92687.500000
+75%     75.250000   49.250000  122053.500000
+max    100.000000   59.000000  146635.000000
+
+Duplicate Values:
+ 0
+
+Null Values:
+ EmployeeID    0
+Age           0
+Department    0
+Salary        0
+dtype: int64
+
+Central Tendency Measures:
+Mean Salary: 92444.63
+Median Salary: 92687.5
+Mode of Department: Marketing

@@ -1,0 +1,11 @@
+Welcome to Tic Tac Toe!
+You are Player X. AI is Player O.
+Enter your move as row and column (0, 1, or 2).
+-------------
+| - | - | - |
+-------------
+| - | - | - |
+-------------
+| - | - | - |
+-------------
+Enter row (0-2):
