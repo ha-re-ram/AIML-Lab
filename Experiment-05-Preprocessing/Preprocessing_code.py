@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 
 # Load the dataset
-df = pd.read_csv('Social_Network_Ads.csv')
+df = pd.read_csv('Datasets/Social_Network_Ads.csv')
 
 # 1. Get basic info about the dataset
 print("\nDataset Info:")
