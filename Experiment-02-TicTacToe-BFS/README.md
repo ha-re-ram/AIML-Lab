@@ -25,7 +25,9 @@ To simulate an interactive game between a human and an AI, where the AI uses **B
 
 ## 📁 Project Structure
 
-Experiment-02-TicTacToe-BFS/ ├── tic_tac_toe_bfs.py # Python source code └── README.md 
+Experiment-02-TicTacToe-BFS/ 
+   ├── tic_tac_toe_bfs.py # Python source code 
+   └── README.md 
 
 ## Project documentation
 
