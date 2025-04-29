@@ -53,23 +53,3 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 # 10. Display pre-processed dataset
 print("\nProcessed Dataset:\n", df.head())
-
-
-with open("output.txt", "w") as f:
-    # Redirect print statements to file
-    import sys
-    sys.stdout = f
-
-    # All your existing code below
-    import pandas as pd
-    from sklearn.preprocessing import StandardScaler, LabelEncoder
-    from sklearn.model_selection import train_test_split
-    from sklearn.impute import SimpleImputer
-
-    df = pd.read_csv('Social_Network_Ads.csv')
-    print("\nDataset Info:")
-    print(df.info())
-    print("\nDataset Description:")
-    print(df.describe())
-    ...
-    print("\nProcessed Dataset:\n", df.head())
