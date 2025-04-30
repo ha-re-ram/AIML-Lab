@@ -25,11 +25,11 @@ To simulate an interactive game between a human and an AI, where the AI uses **B
 
 ## 📁 Project Structure
 
-Experiment-02-TicTacToe-BFS/ 
-   ├── tic_tac_toe_bfs.py # Python source code 
-   └── README.md 
-
-## Project documentation
+```
+Experiment-02-TicTacToe-BFS/
+├── tic_tac_toe_bfs.py   # Python source code
+└── README.md            # Project documentation
+```
 
 ---
 
@@ -42,62 +42,56 @@ Experiment-02-TicTacToe-BFS/
 3. Run the game:
    ```bash
    python tic_tac_toe_bfs.py
+   ```
 
 4. Follow the on-screen instructions:
-    Input the row and column numbers (0 to 2) when prompted.
-    The AI will respond with its move automatically.
+   - Input the row and column numbers (0 to 2) when prompted.
+   - The AI will respond with its move automatically.
 
 ---
+
 ## 🧠 AI Logic Explained (BFS)
 
 The AI uses Breadth-First Search (BFS) to:
-    Generate all possible game states from the current board.
-    Check each future move until a terminal state (win/loss/draw) is reached.
-    Choose the move that leads to the best outcome:
-        +1 for AI win
-        -1 for human win
-        0 for draw
-    This helps the AI avoid losing moves and favor winning or draw states.
+- Generate all possible game states from the current board.
+- Check each future move until a terminal state (win/loss/draw) is reached.
+- Choose the move that leads to the best outcome:
+  - +1 for AI win
+  - -1 for human win
+  - 0 for draw
+
+This helps the AI avoid losing moves and favor winning or draw states.
 
 ---
 
-🛠️ Code Highlights
-print_board(board) — Neatly prints the current game board.
+## 🛠️ Code Highlights
 
-check_winner(board, player) — Checks if the specified player has won.
-
-get_valid_moves(board) — Finds all empty cells.
-
-bfs(board, player) — Runs BFS to evaluate future board states.
-
-main() — Controls the game loop and switches turns.
+- `print_board(board)` — Neatly prints the current game board.
+- `check_winner(board, player)` — Checks if the specified player has won.
+- `get_valid_moves(board)` — Finds all empty cells.
+- `bfs(board, player)` — Runs BFS to evaluate future board states.
+- `main()` — Controls the game loop and switches turns.
 
 ---
 
-💡 Learning Outcome
+## 💡 Learning Outcome
+
 By completing this experiment, students will:
-
-Understand how search algorithms can be applied to games.
-
-Learn how to simulate turn-based logic using Python.
-
-Build AI decision-making using tree-based evaluation.
+- Understand how search algorithms can be applied to games.
+- Learn how to simulate turn-based logic using Python.
+- Build AI decision-making using tree-based evaluation.
 
 ---
 
-📦 Requirements
+## 📦 Requirements
+
 No external libraries required. The game uses only built-in Python modules:
-
- collections.deque — For BFS queue
-
----
-
-👨‍💻 Author
-Hareram Kushwaha
-2nd Year CSE, KPRIET
-🌟 "Building intelligence, one game at a time."
-
+- `collections.deque` — For BFS queue
 
 ---
 
-Let me know if you’d like a **combined README** with both Experiment 1 (Data Analysis) and Experiment 2 (Tic Tac Toe) or a zipped folder structure layout.
+## 👨‍💻 Author
+
+**Hareram Kushwaha**  
+2nd Year CSE, KPRIET  
+🌟 _"Building intelligence, one game at a time."_
