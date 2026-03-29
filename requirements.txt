@@ -1,0 +1,16 @@
+# Requirements for AIML Lab
+
+# Core Libraries
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+scipy
+
+# Jupyter Notebook support
+notebook
+ipykernel
+
+# Other utilities
+jupyterlab
