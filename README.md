@@ -99,7 +99,7 @@ AIML-Lab/
 ## 🧑‍🎓 Author
 
 **Hareram Kushwaha**
-*2nd Year CSE Student at KPRIET*
+*CSE Student at KPRIET*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ha-re-ram)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github)](https://github.com/ha-re-ram)
